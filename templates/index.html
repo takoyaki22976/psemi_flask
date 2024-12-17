@@ -15,6 +15,7 @@
     {% for task in tasks %}
         <h2>タイトル: {{ task.title }}</h2>
         <p>詳細: {{ task.details }}</p>
+        <a href="/update/{{ task.id }}" role="button">Edit</a>
         <a href="/delete/{{ task.id }}" role="button">Delete</a>
     {% endfor %}
 {% endblock %}
