@@ -1,0 +1,36 @@
+body {
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    background-color: #65dae7;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 100%;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #a4a4a4;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #96f099;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #70f977;
+}
