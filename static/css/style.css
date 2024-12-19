@@ -3,9 +3,9 @@ body {
 }
 
 h1 {
-    text-align: center;
-    color: #ffffff;
-    background-color: #65dae7;
+    color: #000000;
+    font-style: italic;
+    font-family: "Times New Roman", "メイリオ";
 }
 
 form {
@@ -24,7 +24,7 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    background-color: #96f099;
+    background-color: #54fd59;
     color: #ffffff;
     border: none;
     padding: 10px 20px;
@@ -32,5 +32,47 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #70f977;
+    background-color: #00ff11;
+}
+
+.task {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #c2c2c2;
+    border-radius: 8px;
+}
+
+.task h2 {
+    margin-bottom: 10px;
+}
+
+.task p {
+    margin-bottom: 15px;
+}
+
+.task .editbutton {
+    background-color: #6ba3f5;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.task .editbutton:hover {
+    background-color: #0063f7;
+}
+
+.task .deletebutton {
+    background-color: #ff665c;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.task .deletebutton:hover {
+    background-color: #ff1100;
 }
